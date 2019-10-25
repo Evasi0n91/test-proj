@@ -1,0 +1,357 @@
+@font-face{
+
+font-family:'font';
+
+src: url('Cabin-Regular.otf');
+}
+html{
+	font-family:'font';
+}
+body{
+	margin:0;
+	overflow-x:hidden;
+	padding: 45px;
+}
+header{width:100%;display:table;background-color:#eee;
+padding: 20px 0px 20px 0px;
+}
+ol{
+	text-align: center;
+	margin-top: 140px;
+}
+ol li{
+	display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 0 4px;
+    background: #737373;
+    border-radius: 100%;
+    cursor: default;
+    vertical-align: middle;
+}
+
+li{
+	cursor: default;
+}
+ol:hover{
+	cursor: default;
+}
+.two{
+	width: 12px;
+	height: 12px;
+	margin: 0 12px;
+}
+.bg{
+	background-color: #eee;
+	height: 960px;
+}
+.bg img{
+	text-align: center;
+}
+footer{
+	margin-top: 100px;
+    position: relative;
+    max-width: 1600px;
+    margin: auto;
+}
+.tex1{
+	font-weight: bold;
+	font-size: 28px;
+	width: 325px;
+	color: #363636;
+
+}
+.right{
+	
+	text-align: right; 
+}
+.tex2{
+	width: 500px;
+	font-size: 13px;
+	height: 90px;
+	color: #959595;
+	line-height: 1.6 !important;
+	letter-spacing: 1.05px;
+
+}
+.left{
+	text-align: left;
+}
+
+.tex3{
+	font-weight: bold;
+	font-size: 12px;color: #363636;
+}
+
+.tex1, .tex2, .tex3{
+	margin: auto;
+	line-height: 1.5;
+}
+.right, .left{
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%; 
+}
+.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto; text-align:center; }
+.stex{
+	padding-top: 70px;
+}
+.btex{
+	font-size: 19px;
+	padding-top: 30px;
+	line-height: 1.5;
+}
+.contex p{
+	    font-weight: bold;
+    margin: 0px;
+    width: 270px;
+    padding-left: 50%;
+}
+.images{
+	text-align: center;
+	margin-top: 80px;
+}
+.images img{
+	position: relative;
+}
+.ph{
+	left: 220px;
+	z-index: 2;
+}
+.pc{
+	left: 100px;
+}
+.contex{
+	width: 100%;
+    
+ 
+   
+    padding: 0px;
+    margin: 0px;
+}
+.stex{
+	font-size: 11px;
+}
+button {
+ 
+ position: absolute;
+  color: #363636;
+  top: 15%;
+  right: 5%;
+  text-decoration: none;
+  user-select: none;
+  padding: 20px 30px;
+  outline: none;
+  font-weight: bold;
+  border: 1px solid;
+  font-size: 15px;
+  border-color: #cfcfcf;
+  background: none;
+  border-radius: 1px;
+  font-family: "font";
+  letter-spacing: 0.7px;
+  
+} 
+button:hover { background: #cfcfcf;cursor: pointer; }
+button:active { background: white; }
+@media (min-width: 1200px) { .container{max-width:1400px} }
+
+#logo{
+	
+	position: absolute;
+    top: 85px;
+    left: 50%;
+        transform: translate(-50%, -50%) }
+}
+nav{width:auto;float:right;margin-top:7px}
+nav ul{display:table;float:right;margin:0;padding-right: 20px;}
+nav ul li{float:left;list-style-type:none}
+nav ul li:last-child{padding-right:0}
+nav ul li a{color:#363636;
+	font-size:16px;
+	padding:7px 19px;
+	display:inline-block;
+	text-decoration:none
+}
+nav ul li a:hover{background-color:#fff;}
+.toggle-menu ul{display:table;width:31px;margin-left:0;padding-left:0;margin:5px}
+.toggle-menu ul li{width:100%;height:1px;background-color:#363636;margin-bottom:7px;list-style:none}
+.toggle-menu ul li:last-child{margin-bottom:0} input[type=checkbox],label{display:none}
+@media only screen and (max-width: 967px) { 
+ol{
+	padding: 0px;
+}
+.tex2 {
+    
+    font-size: 12px;
+    
+}
+.tex3 {
+    
+    font-size: 11px;
+    
+}
+.tex1 {
+    
+    font-size: 22px;
+    
+}
+button{
+	float: none;
+
+}
+footer{
+	margin-top: 50px; 
+
+}
+
+.right, .left{
+	display: block;
+	width: 90% !important;
+	max-width: 600px !important;
+	text-align: center;
+	margin: auto;
+	margin-top: 25px;
+}
+body{
+	padding: 20px;
+}
+.stex{
+	font-size: 9px;
+	padding-top: 50px !important;
+}
+.btex{
+	font-size: 17px;
+}
+
+.ph{
+	width: 100px;
+	display: none;
+}
+
+.contex p{
+	padding-top: 30px;
+	padding-left: 0px;
+	margin: auto;
+	text-align: center;
+}
+.images{
+	display: inline-block;
+	width: 100%;
+}
+.images img{
+	width: 90%;
+	margin-bottom: -90px;
+}
+.cup{
+	display: none;
+}
+.bg{
+	height: auto!important; 
+}
+
+header{padding:23px 0} 
+#logo{padding:0} 
+input[type=checkbox]{position:absolute;top:-7777px;left:-7777px;background:none} 
+input[type=checkbox]:focus{background:none} 
+label{
+	float:left;
+display:inline-block;
+cursor:pointer;
+background-color: #eee;
+margin-right:25px;
+} 
+input[type=checkbox]:checked ~ 
+nav{display:block} 
+nav{display:none;z-index:99} 
+nav ul{
+	width: auto;
+    float: none;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    position: relative;
+    top: 45px;
+    right: 5px;
+} 
+nav ul li{float:none;padding:0;width:100%;display:table} 
+nav ul li a{padding:10px 20px;display:block;} 
+} 
+@media only screen and (max-width: 360px) { 
+nav ul{
+	
+    top: 20px;
+    right: 0px;
+} 
+.stex{
+	font-size: 9px;
+	padding-top: 0px !important;
+}
+button{
+	width: 100%; 
+}
+.tex2 {
+    
+    font-size: 10px;
+    
+}
+.tex3 {
+    
+    font-size: 8px;
+    
+}
+.tex1 {
+    
+    font-size: 18px;
+    
+}
+.images{
+	margin-top: 30px;
+}
+.images img {
+    
+    margin-bottom: -100px;
+    
+}
+body{
+	padding: 15px;
+}
+label{padding:5px 0;} 
+#logo img{width: 75%;} 
+#logo{
+	top: 60px;
+	left: 60%;
+}
+nav{top:47px} 
+}
+@media only screen and (max-width: 1650px) { 
+footer{
+	text-align: center;
+}
+button{
+	margin-top: 50px;
+	position: initial;
+}
+.right, .left{
+	width:40%; 
+	max-width: 400px;
+}
+.tex1, .tex2, .tex3 {
+   width: 90%;
+}
+.bg{
+	height: 710px;
+}
+.ph{
+	    width: 130px;
+    left: 75px;
+}
+.pc{
+	width: 500px;
+    left: 0px;
+}
+.cup{
+	width: 230px;
+    right: 100px;
+}
+}
